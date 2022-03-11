@@ -14,5 +14,8 @@ class MainActivity : AppCompatActivity() {
         un TestDEV(){var txv:TextView = findViewById<TextView>(R.id.txv)
             txv.text = "Dev分支"
 
+            fun TestMaster(){var txv:TextView = findViewById<TextView>(R.id.txv)
+                txv.text = "Master分支"
+
     }
 }
